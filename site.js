@@ -32,6 +32,8 @@ let makeList = function(taskToAdd) {
   return newListItem
 }
 
+
+
 $(document).ready(function() {
 
   $("#taskList").sortable();
