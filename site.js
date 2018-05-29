@@ -34,6 +34,8 @@ let makeList = function(taskToAdd) {
 
 $(document).ready(function() {
 
+  $("#taskList").sortable();
+
   taskBtn.click(function() {
     let listItem = makeList(newTask.val())
 
